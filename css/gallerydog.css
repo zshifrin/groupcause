@@ -1,0 +1,31 @@
+html {
+    font-family: 'Raleway', sans-serif;
+    background-color: #FFC573;
+   color: #A64B00;
+}
+
+html h2 {
+	font-family: 'Engagement', cursive;
+	font-size: 55px;
+	padding-bottom: -30px;
+}
+
+.gallimg img {
+	width: 250px;
+	height: 200px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: white;
+}
+
+.gallimg {
+	float:left;
+	padding-right: 12px;
+	box-sizing: border-box;
+}
+
+.gallimg p {
+	font-size: 13px;
+	padding-top: 0;
+
+}
