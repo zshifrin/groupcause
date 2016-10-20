@@ -14,7 +14,7 @@ h1 {
     width: 20%;
     text-align: center;
     font-family: 'Raleway', sans-serif;
-    min-height: 700px;
+    min-height: 400px;
     margin: 0px;
     color: #A64B00;
     border-right: 2px solid #A64B00;
@@ -30,4 +30,14 @@ h1 {
 
 .xevent:first-child {
         margin-left: 5%;
+}
+
+footer {
+    clear: left;
+    background: #009999;
+    color: #fff;
+}
+
+footer p {
+    margin: 0;
 }
