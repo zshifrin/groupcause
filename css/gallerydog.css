@@ -29,3 +29,13 @@ html h2 {
 	padding-top: 0;
 
 }
+
+footer {
+	clear: left;
+	background: #009999;
+	color: #fff;
+}
+
+footer p {
+	margin: 0;
+}
