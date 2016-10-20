@@ -1,0 +1,46 @@
+body {
+	background-color: #FFC573;
+
+	}
+h1 {
+	text-align: center;
+	color: #A64B00;
+
+}
+
+.firstevent {
+	float: left;
+	width: 20%;
+	margin-right: 2%;
+	color: #A64B00;
+	border: 2px solid #A64B00;
+	padding: 10px;
+
+}
+
+.secondevent {
+	float: left;
+	width: 20%;
+	margin-right: 2%;
+	color: #A64B00;
+	border: 2px solid #A64B00;
+	padding: 10px;
+}
+
+.thirdevent {
+	float: left;
+	width: 20%;
+	margin-right: 2%;
+	color: #A64B00;
+	border: 2px solid #A64B00;
+	padding: 10px;
+}
+
+.fourthevent {
+	float: left;
+	width: 20%;
+	margin-right: 0 auto;
+	color: #A64B00;
+	border: 2px solid #A64B00;
+	padding: 10px;
+}
