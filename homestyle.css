@@ -36,4 +36,9 @@ body {
 footer {
 	clear: left;
 	background: #009999;
+	color: #fff;
+}
+
+footer p {
+	margin: 0;
 }
