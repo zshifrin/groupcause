@@ -1,0 +1,44 @@
+html {
+	font-family: 'Raleway', sans-serif;
+	color: #A64B00;
+}
+html h1 {
+	font-family: 'Engagement', cursive;
+	font-size: 55px;
+}
+body {
+	background: #FFC573;
+}
+
+#hero {
+	background-image: url("HomePageBanner.jpg");
+	width: 100%;
+	height: 350px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+#about {
+	width: 80%;
+	margin: 0 auto 40px;
+}
+#about h1{
+	text-align: center;
+}
+
+#about img {
+	float: left;
+	margin-right: 2%;
+	margin-bottom: 5%;
+}
+
+footer {
+	clear: left;
+	background: #009999;
+	color: #fff;
+}
+
+footer p {
+	margin: 0;
+}
