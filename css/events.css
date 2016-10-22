@@ -42,3 +42,52 @@ footer {
 footer p {
     margin: 0;
 }
+
+@media all and (max-width: 960px) {
+    
+    .xevent  { 
+        width: 22%;
+        height: auto;
+        margin-right: 0%;
+    }
+
+    .xevent:first-child {
+        margin-left: 0%;
+    }
+
+    .xevent:last-child {
+        margin-right: 0;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .xevent {
+        width: 40%;
+        height: auto;
+        margin-right: 0%;
+    }
+
+    .xevent:first-child {
+        margin-left: 0%;
+    }
+
+    .xevent:last-child {
+        border-right: 2px solid #A64B00;
+    }
+}
+
+@media all and (max-width: 540px) {
+    .xevent {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+        margin-right: 0;
+        border-right: 0;
+        padding: 15px;
+        }
+
+    .xevent:first-child {
+        margin-left: 0;
+    }
+
+    }
