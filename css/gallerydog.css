@@ -8,6 +8,15 @@ html h2 {
 	font-family: 'Engagement', cursive;
 	font-size: 55px;
 	padding-bottom: -30px;
+	text-align: center;
+}
+
+.gallery {
+	margin-left: 25px;
+}
+
+#pageinfo p {
+	margin-left: 25px;
 }
 
 .gallimg img {
@@ -28,4 +37,17 @@ html h2 {
 	font-size: 13px;
 	padding-top: 0;
 
+}
+
+footer {
+	clear: left;
+	background: #009999;
+	color: #fff;
+}
+
+footer p {
+	margin: 0;
+	padding: 15px;
+	border-style: border-box;
+	text-align: center;
 }

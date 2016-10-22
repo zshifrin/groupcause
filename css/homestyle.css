@@ -11,7 +11,7 @@ body {
 }
 
 #hero {
-	background-image: url("HomePageBanner.jpg");
+	background-image: url("../img/HomePageBanner.jpg");
 	width: 100%;
 	height: 350px;
 	background-repeat: no-repeat;
