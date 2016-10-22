@@ -1,5 +1,35 @@
 html {
     font-family: 'Raleway', sans-serif;
     background-color: #FFC573;
-   color: #A64B00;
+    color: #A64B00;
+    text-align: center;
+}
+
+html h1 {
+    font-family: 'Engagement', cursive;
+    font-size: 55px;
+}
+
+#thanks p {
+    margin: 0 auto;
+    padding-top: 15px;
+    width: 320px;
+    height: 125px;
+    box-sizing: border-box;
+    border: none;
+}
+
+#location img {
+    width: 40px;
+    height: 40px;
+}
+
+footer {
+    clear: left;
+    background: #009999;
+    color: #fff;
+}
+
+footer p {
+    margin: 0;
 }
