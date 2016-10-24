@@ -1,0 +1,93 @@
+body {
+    background-color: #FFC573;
+
+}
+h1 {
+    text-align: center;
+    color: #A64B00;
+    padding: 30px;
+    font-family: 'Engagement', cursive;
+    font-size: 60px;
+}
+
+.xevent {
+    float: left;
+    width: 20%;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    min-height: 400px;
+    margin: 0px;
+    color: #A64B00;
+    border-right: 2px solid #A64B00;
+    border-top: 6px solid #A64B00;
+    padding: 10px;
+
+}
+
+.xevent:last-child {
+    margin-right: 5%;
+    border-right: none;
+}
+
+.xevent:first-child {
+        margin-left: 5%;
+}
+
+footer {
+    clear: left;
+    background: #009999;
+    color: #fff;
+}
+
+footer p {
+    margin: 0;
+}
+
+@media all and (max-width: 960px) {
+    
+    .xevent  { 
+        width: 22%;
+        height: auto;
+        margin-right: 0%;
+    }
+
+    .xevent:first-child {
+        margin-left: 0%;
+    }
+
+    .xevent:last-child {
+        margin-right: 0;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .xevent {
+        width: 40%;
+        height: auto;
+        margin-right: 0%;
+    }
+
+    .xevent:first-child {
+        margin-left: 0%;
+    }
+
+    .xevent:last-child {
+        border-right: 2px solid #A64B00;
+    }
+}
+
+@media all and (max-width: 540px) {
+    .xevent {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+        margin-right: 0;
+        border-right: 0;
+        padding: 15px;
+        }
+
+    .xevent:first-child {
+        margin-left: 0;
+    }
+
+    }

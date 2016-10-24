@@ -1,0 +1,51 @@
+#main-nav {
+	background: #009999;
+}
+
+#main-nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+#main-nav li {
+	float: left;
+	display: block;
+	width: 100px;
+	text-align: center;
+	border-right: 2px solid #FFC573;
+}
+
+
+#main-nav li:last-child {
+	font-family: 'Engagement', cursive;
+	font-size: 25px;
+	color: #FFC573;
+	float: right;
+	display: block;
+	border-right: none;
+	padding: 5px;
+}
+
+.buttons {
+	display: block;
+	background-color: #009999;
+	font-family: 'Raleway', sans-serif;
+	overflow: hidden;
+
+}
+
+#main-nav a {
+	color: #FFC573;
+	font-size: 14px;
+	text-decoration: none;
+	padding: 15px;
+	display: block;
+}
+
+#main-nav a:hover {
+	background-color: #A64B00;
+	color: #FFC573;
+}
+
